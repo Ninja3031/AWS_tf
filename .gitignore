@@ -1,0 +1,72 @@
+# ==============================
+# Terraform
+# ==============================
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform variable files
+# (often contain credentials/secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+
+# ==============================
+# AWS / Credentials
+# ==============================
+
+.aws/
+*.pem
+*.key
+
+
+# ==============================
+# Editors / IDEs
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+
+
+# ==============================
+# Installer / Local artifacts
+# ==============================
+
+*.pkg
+*.dmg
+*.zip
