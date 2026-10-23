@@ -16,4 +16,4 @@ resource "aws_s3_bucket" "bucket2" {
 
   depends_on = [aws_s3_bucket.my_bucket]
   
-}
+} 
